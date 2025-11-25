@@ -39,7 +39,10 @@ const HomePage = ({ articles, streak, articlesReadToday }) => {
                   <span className="category-tag">{article.category}</span>
                   <span className="read-time">{article.readingTime}</span>
                 </div>
-                <h3 className="card-title">{article.title}</h3>
+                <div>
+                  <h3 className="card-title">{article.title}</h3>
+                  <div className="card-author">By {article.author}</div>
+                </div>
                 <div className="read-action">
                   Tap to read summary <span>→</span>
                 </div>
@@ -129,7 +132,8 @@ const ArticleStory = ({ articles, onMarkRead, readArticleIds }) => {
       <div className="story-header-slide page-transition">
         <span className="story-category">{article.category}</span>
         <h1 className="story-main-title">{article.title}</h1>
-        <p style={{ marginTop: "2rem", fontStyle: "italic", color: "#888" }}>
+        <p className="story-author">By {article.author}</p>
+        <p style={{ marginTop: "1rem", fontStyle: "italic", color: "#888" }}>
           {article.readingTime} read summary
         </p>
       </div>

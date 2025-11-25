@@ -2,6 +2,7 @@ export const ARTICLES_DATA = [
   {
     id: 1,
     title: "Sovereignty Isn’t Just about Military Strength",
+    author: "Kevin G. Lynch, James R. Mitchell",
     category: "Politics",
     readingTime: "7 min",
     coreTakeaway:
@@ -22,6 +23,7 @@ export const ARTICLES_DATA = [
   {
     id: 2,
     title: "I Was Raised on Fairy Tales. No Wonder My Love Life Was Chaos",
+    author: "Plum Johnson",
     category: "Memoir",
     readingTime: "8 min",
     coreTakeaway:
@@ -42,6 +44,7 @@ export const ARTICLES_DATA = [
   {
     id: 3,
     title: "Publishing Can’t Quit Its Obsession with Buzzy Stories",
+    author: "Carmine Starnino",
     category: "Journalism",
     readingTime: "4 min",
     coreTakeaway:
